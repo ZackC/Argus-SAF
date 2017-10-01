@@ -19,7 +19,9 @@ import org.argus.jawa.alir.Context
  */ 
 object AndroidReachingFactsAnalysisConfig {
   final var resolve_icc = false
-  final var resolve_static_init: Boolean = AndroidGlobalConfig.settings.static_init
-  final var parallel: Boolean = AndroidGlobalConfig.settings.parallel
+  //final var resolve_static_init: Boolean = AndroidGlobalConfig.settings.static_init
+  final var resolve_static_init = false
+  //final var parallel: Boolean = AndroidGlobalConfig.settings.parallel
+  final var parallel = false
   Context.init_context_length(AndroidGlobalConfig.settings.k_context)
 }

@@ -1,3 +1,8 @@
+# Modified version of Argus-SAF to check for Android API misuse
+The goal of this project is to create a tool that developers can use when 
+developing an Android application.  The tool will notify developers of 
+Android API miuses and possibly correct the statements.
+
 # Argus-SAF: Argus static analysis framework
 [![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)](https://opensource.org/licenses/EPL-1.0) 
 [![Download](https://api.bintray.com/packages/arguslab/maven/argus-saf/images/download.svg)](https://bintray.com/arguslab/maven/argus-saf/_latestVersion)
